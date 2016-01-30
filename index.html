@@ -1,46 +1,344 @@
+
 <!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="normalize.css">
-    <script type="" src="script.js"></script>
-    <script src="doubletaptogo.js"></script>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head profile="http://gmpg.org/xfn/11">
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	
+	<title>Ryan Miller | Designer</title>
+	
+
+	
+	<!-- Force latest IE rendering engine & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	  
+	<!-- Adaptive Images Script -->	 <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
+
+	  
+	<!-- jquery -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script>!window.jQuery && document.write('<script src="http://www.scottmccarthydesign.com/wp-content/themes/scottmccarthydesign_2013/js/jquery-1.9.0.min.js"><\/script>')</script>
+	
+	<!-- typekit -->
+	<script type="text/javascript" src="//use.typekit.net/jve5ghg.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="http://www.scottmccarthydesign.com/wp-content/themes/scottmccarthydesign_2013/style.css" type="text/css" />	
+		
+	<!-- scripts -->
+	<script src="http://www.scottmccarthydesign.com/wp-content/themes/scottmccarthydesign_2013/js/modernizr.js" type="text/javascript"></script>
+	<script src="http://www.scottmccarthydesign.com/wp-content/themes/scottmccarthydesign_2013/js/fittext.js" type="text/javascript"></script>
+	<script src="http://www.scottmccarthydesign.com/wp-content/themes/scottmccarthydesign_2013/js/easing.js" type="text/javascript"></script>
+	<script src="http://www.scottmccarthydesign.com/wp-content/themes/scottmccarthydesign_2013/js/jquery.ui.totop.js" type="text/javascript"></script>
+	<script src="http://www.scottmccarthydesign.com/wp-content/themes/scottmccarthydesign_2013/js/bjqs-1.3.js" type="text/javascript"></script>	
+	<script src="http://www.scottmccarthydesign.com/wp-content/themes/scottmccarthydesign_2013/js/jquery.content-panel-switcher.js" type="text/javascript"></script>	
+	
+	<script type='text/javascript'>
+		jQuery(document).ready(function($) {
+	
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top}, 700);
+		});
+		});
+	</script>	
+	<script type="text/javascript">
+		$(document).ready(function() {		
+			$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	
+	<script type='text/javascript'>
+		$(document).ready(function() {
+		jcps.fader(300, '#switcher-panel');
+		});
+	</script>  
+	
+	
+	<!--[if gte IE 9]>
+	  <style type="text/css">
+	    .gradient {
+	       filter: none;
+	    }
+	  </style>
+	<![endif]-->
+	
+	
+	<link rel="pingback" href="http://www.scottmccarthydesign.com/xmlrpc.php" />
+
+	
+	
+<!-- This site is optimized with the Yoast WordPress SEO plugin v2.0 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Scott McCarthy: Art Direction, Design, Development"/>
+<link rel="canonical" href="http://www.scottmccarthydesign.com/" />
+<script type='application/ld+json'>{ "@context": "http://schema.org","@type": "WebSite","url": "http://www.scottmccarthydesign.com/","potentialAction": {"@type": "SearchAction","target": "http://www.scottmccarthydesign.com/?s={search_term}","query-input": "required name=search_term"}}</script>
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="scottmccarthydesign.com &raquo; Feed" href="http://www.scottmccarthydesign.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="scottmccarthydesign.com &raquo; Comments Feed" href="http://www.scottmccarthydesign.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="scottmccarthydesign.com &raquo; Scott McCarthy Design Comments Feed" href="http://www.scottmccarthydesign.com/home/feed/" />
+<link rel='shortlink' href='http://www.scottmccarthydesign.com/' />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+	
 </head>
-    <nav id="nav" role="navigation">
-	<a href="#nav" title="Show navigation">Show navigation</a>
-	<a href="#" title="Hide navigation">Hide navigation</a>
-	<ul class="clearfix">
-		<li><a href="?home">Home</a></li>
-		<li>
-			<a href="?blog" aria-haspopup="true"><span>Blog</span></a>
-			<ul>
-				<li><a href="?design">Design</a></li>
-				<li><a href="?html">HTML</a></li>
-				<li><a href="?css">CSS</a></li>
-				<li><a href="?javascript">JavaScript</a></li>
-			</ul>
-		</li>
-		<li>
-			<a href="?work" aria-haspopup="true"><span>Work</span></a>
-			<ul>
-				<li><a href="?webdesign">Web Design</a></li>
-				<li><a href="?typography">Typography</a></li>
-				<li><a href="?frontend">Front-End</a></li>
-			</ul>
-		</li>
-		<li><a href="?about">About</a></li>
-	</ul>
-</nav>
+
+<body class="home page page-id-204 page-template page-template-page-home page-template-page-home-php">
+<div id="stickyfooterouter">
+<div id="stickyfooterinner" class="clearfix">
+<div id="wrap">	
+
+<section class="splash clearfix" id="homesplash">
+	<div class="slidecontainer">
+		<div id="siteheader">
+		<a class="gohome" href="/">
+			<img class="sitelogo" src="http://www.scottmccarthydesign.com/wp-content/themes/scottmccarthydesign_2013/images/logo_sm.png" alt="Scott McCarthy Design logo"/>
+			<span>scottmccarthydesign.com</span>
+		</a>
+		<ul class="navigation clearfix">
+		<li id="worknoscroll"><a href="/#work">Work</a></li>
+		<li id="workscroll"><a class="scroll" href="#work">Work</a></li>
+		<li id="aboutnoscroll"><a class="about" href="/#about">About</a></li>
+		<li id="aboutscroll"><a class="scroll about" href="#about">About</a></li>
+		<li id="contactnoscroll"><a class="contact" href="/#contact">Contact</a></li>
+		<li id="contactscroll"><a class="scroll contact" href="#contact">Contact</a></li>
+		<li id="favorites"><a class="favs" href="/favorites">Favorites</a></li>
+		</ul>
+		</div><!--siteheader-->
+<div style="clear:both"></div>
+</div><!--slidecontainer-->
+
+	<h1>
+		<img class="homelogo" src="http://www.scottmccarthydesign.com/wp-content/themes/scottmccarthydesign_2013/bg_images/bigtext.png" alt="Scott McCarthy Design"/>
+	</h1>
+		
+	<div id="brandlabel" class="clearfix">
+		<div id="brandcontainer" class="clearfix">
+			<div id="brandimage">
+				<img class="logo" src="http://www.scottmccarthydesign.com/wp-content/themes/scottmccarthydesign_2013/images/logo_sm.png" alt="Scott McCarthy circle logo"/>
+			</div>
+			<div id="brandtag">
+				<p id="media_large">Art Direction, Design &amp; Dev</p>
+				<p id="media_small">Art Direction,</br>Design &amp; Dev</p>
+				<p class="whatido">Web&nbsp;&nbsp;&nbsp;&nbsp;Print&nbsp;&nbsp;&nbsp;&nbsp;Mobile&nbsp;&nbsp;&nbsp;&nbsp;Identity</p>
+			</div>
+		</div><!--brandcontainer-->	
+	</div><!--bradlabel-->
+		
+	<div class="homenav">
+		<ul>
+			<li class="contact"><a class="scroll" href="#contact">Contact</a></li>
+			<li class="about"><a class="scroll" href="#about">About</a></li>
+			<li class="favs"><a href="/favorites">Favorites</a></li>
+			<li id="workscroll"><a class="scroll" href="#work">Work</a></li>
+
+		</ul>	
+	</div>
+</section><!--#homesplash-->
+ 
+<div class="slideup clearfix">
+	<div class="edge"></div> 
+	<div class="contentcontainer tophalf"> 
+	
+		<p class="welcome"><span>Welcome</span> to the portfolio of Scott McCarthy, Creative Director at Wall Street Prep and digital design consultant. Scott is an experienced creative strategist who strives for design clarity with a simple, bold and beautiful aesthetic. Have a look around to see what he's been up to.</p>		
+		
+	
+		<section class="selectedwork">
+			<header>
+				<h4><span>&nbsp;&nbsp;&nbsp;Recent Projects&nbsp;&nbsp;&nbsp;</span></h4>
+			</header>
+	
+			<ul class="projectlist clearfix">
+			
+						
+										<li class="projectthumb li_70">
+					<a href="http://www.scottmccarthydesign.com/explore-dc/">
+						<div class="description">						
+							<img src="/wp-content/icons/icon_explore.png" alt="icon for Post #70" />
+							<h3>Explore D.C.</h3>
+							<p>
+								A travel app for iPhone <span>by the Washington Post</span>
+							</p>
+						</div>
+					</a>
+				</li>
+								<li class="projectthumb li_69">
+					<a href="http://www.scottmccarthydesign.com/wall-street-prep/">
+						<div class="description">						
+							<img src="/wp-content/icons/icon_wsp.png" alt="icon for Post #69" />
+							<h3>WallStreetPrep.com</h3>
+							<p>
+								Redesign of a financial training site							</p>
+						</div>
+					</a>
+				</li>
+								<li class="projectthumb li_33">
+					<a href="http://www.scottmccarthydesign.com/express/">
+						<div class="description">						
+							<img src="/wp-content/icons/icon_express.png" alt="icon for Post #33" />
+							<h3>Express Redesign</h3>
+							<p>
+								A new look for the daily paper							</p>
+						</div>
+					</a>
+				</li>
+								<li class="projectthumb li_90">
+					<a href="http://www.scottmccarthydesign.com/express-fronts/">
+						<div class="description">						
+							<img src="/wp-content/icons/icon_expressgal.png" alt="icon for Post #90" />
+							<h3>Express Page Gallery</h3>
+							<p>
+								Fronts, news and feature pages							</p>
+						</div>
+					</a>
+				</li>
+								<li class="projectthumb li_34">
+					<a href="http://www.scottmccarthydesign.com/mobilemouse/">
+						<div class="description">						
+							<img src="/wp-content/icons/icon_mmouse.png" alt="icon for Post #34" />
+							<h3>Mobile Mouse</h3>
+							<p>
+								UX & UI design for a utility app							</p>
+						</div>
+					</a>
+				</li>
+								<li class="projectthumb li_8">
+					<a href="http://www.scottmccarthydesign.com/tommy-wells/">
+						<div class="description">						
+							<img src="/wp-content/icons/icon_wells.png" alt="icon for Post #8" />
+							<h3>Tommy Wells for Mayor</h3>
+							<p>
+								Identity for a D.C. mayoral candidate							</p>
+						</div>
+					</a>
+				</li>
+								<li class="projectthumb li_35">
+					<a href="http://www.scottmccarthydesign.com/snead/">
+						<div class="description">						
+							<img src="/wp-content/icons/icon_snead.png" alt="icon for Post #35" />
+							<h3>Snead Construction</h3>
+							<p>
+								A new site for a general contractor							</p>
+						</div>
+					</a>
+				</li>
+								<li class="projectthumb li_68">
+					<a href="http://www.scottmccarthydesign.com/wspanalytics/">
+						<div class="description">						
+							<img src="/wp-content/icons/icon_wspa.png" alt="icon for Post #68" />
+							<h3>WSP Analytics</h3>
+							<p>
+								A site introducing BoostPro							</p>
+						</div>
+					</a>
+				</li>
+								<li class="projectthumb li_10">
+					<a href="http://www.scottmccarthydesign.com/fw/">
+						<div class="description">						
+							<img src="/wp-content/icons/icon_fw.png" alt="icon for Post #10" />
+							<h3>Fashion Washington</h3>
+							<p>
+								The Washington Post's fashion pub							</p>
+						</div>
+					</a>
+				</li>
+								<li class="projectthumb li_128">
+					<a href="http://www.scottmccarthydesign.com/kingman-island/">
+						<div class="description">						
+							<img src="/wp-content/icons/icon_kingman.png" alt="icon for Post #128" />
+							<h3>KI Bluegrass Festival</h3>
+							<p>
+								A site promoting a charitable concert							</p>
+						</div>
+					</a>
+				</li>
+							</ul>
+		</section>
+	</div><!--contentcontainer-->
+	<div class="edgebottom"></div> 
+</div><!--slideup-->
+
+	
+<section id="statement">
+	<div id="mission">
+		<img src="http://www.scottmccarthydesign.com/wp-content/themes/scottmccarthydesign_2013/bg_images/ontime2.png" alt="always on time and on budget"/>
+	</div>
+</section>
+	
+<div id="about" class="slideup bottomslideup clearfix">
+	<div class="edge"></div> 
+	<div class="contentcontainer">
+		
+		<section class="about clearfix">
+			<header>
+				<h4><span>&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;</span></h4>
+			</header>
+			
+			<img class="illo" src="X"/>
+			<p>Here is where a description of me goes</section>
+		<div id="contact"></div><!--target for internal contact links-->
+
+		<section class="contactform clearfix">
+			<header>
+				<h4><span>&nbsp;&nbsp;&nbsp;Contact Us&nbsp;&nbsp;&nbsp;</span></h4>
+			</header>
+			
+			<div id="postcard" class="clearfix">
+
+            </div>				
+				
+
+
+
+		</section>
+		
+		
+
+	</div><!--.contentcontainer-->
+</div><!--.slideup-->
 
 <script>
-	$( function()
-	{
-		$( '#nav li:has(ul)' ).doubleTapToGo();
-	});
+$(window).scroll(function() {
+    if ( $(this).width() > 1024 ) {
+        $("#homesplash").toggle( $(this).scrollTop() <= 600 );
+    }
+});
 </script>
-<body>
+	
+</div><!--#wrap-->
+</div><!--#stickyfooterinner-->
+</div><!--#stickyfooterouter-->
+
+<div class="footercontainer">
+	<div id="footer">
+		<p class="copyright">&copy;2013 scottmccarthydesign.com</p>
+		<p class="emailaddress">e-mail: <a href="mailto:info@scottmccarthydesign.com">info@scottmccarthydesign.com</a></p>
+	</div>
+</div>
+
+<script type='text/javascript' src='http://www.scottmccarthydesign.com/wp-includes/js/comment-reply.min.js?ver=4.1.1'></script>
 
 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40349905-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+		
 </body>
 </html>
+
